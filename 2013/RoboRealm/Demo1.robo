@@ -1,0 +1,73 @@
+<head><version>2.48.9</version></head>
+<Mean>
+  <filter_size>6</filter_size>
+</Mean>
+<RGB_Filter>
+  <channel>2</channel>
+  <hysteresis>0</hysteresis>
+  <result_type>2</result_type>
+  <min_value>100</min_value>
+  <hue_value>50</hue_value>
+</RGB_Filter>
+<Blob_Filter>
+  <filters>
+    <tab:5/>
+    <tab:2/>
+    <tab:4/>
+    <tab>
+      <filter>
+        <create_array>0</create_array>
+        <count_threshold>0</count_threshold>
+        <weight_threshold>0.20</weight_threshold>
+        <invert_count>0</invert_count>
+        <filter_id>70</filter_id>
+        <invert_threshold>1</invert_threshold>
+      </filter>
+    </tab>
+    <tab:6/>
+    <tab:3/>
+  </filters>
+  <sort_array_on_y>FALSE</sort_array_on_y>
+  <largest_is_background>FALSE</largest_is_background>
+  <sort_array_on_x>FALSE</sort_array_on_x>
+  <show_weights>FALSE</show_weights>
+  <create_blob_array_variable>FALSE</create_blob_array_variable>
+</Blob_Filter>
+<Close>
+  <restrict_dilation>FALSE</restrict_dilation>
+  <erode_count>15</erode_count>
+  <dilate_count>15</dilate_count>
+  <close_borders>FALSE</close_borders>
+  <kernal_shape>4</kernal_shape>
+  <symmetrical>TRUE</symmetrical>
+</Close>
+<Fill>
+  <four_pixel_connectivity>FALSE</four_pixel_connectivity>
+  <size>0</size>
+  <check_border>FALSE</check_border>
+  <fill_with_average_color>FALSE</fill_with_average_color>
+</Fill>
+<Blob_Filter>
+  <filters>
+    <tab:5/>
+    <tab:2/>
+    <tab:4/>
+    <tab>
+      <filter>
+        <create_array>0</create_array>
+        <count_threshold>0</count_threshold>
+        <weight_threshold>0.05</weight_threshold>
+        <invert_count>0</invert_count>
+        <filter_id>70</filter_id>
+        <invert_threshold>1</invert_threshold>
+      </filter>
+    </tab>
+    <tab:6/>
+    <tab:3/>
+  </filters>
+  <sort_array_on_y>FALSE</sort_array_on_y>
+  <largest_is_background>FALSE</largest_is_background>
+  <sort_array_on_x>FALSE</sort_array_on_x>
+  <show_weights>FALSE</show_weights>
+  <create_blob_array_variable>FALSE</create_blob_array_variable>
+</Blob_Filter>

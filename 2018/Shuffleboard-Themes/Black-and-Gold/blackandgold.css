@@ -1,0 +1,9 @@
+@import "/edu/wpi/first/shuffleboard/app/dark.css"
+
+.root {
+	-swatch-100: #EAEA00;
+	-swatch-200: #DADA00;
+	-swatch-300: #CACA00;
+	-swatch-400: #BABA00;
+	-swatch-500: #AAAA00;
+}

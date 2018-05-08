@@ -1,0 +1,145 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Jaguar 5 mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="628" y="242"/>
+	</widget>
+	<widget field="Jaguar 6 mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="628" y="271"/>
+	</widget>
+	<widget field="Jaguar 10 mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="623" y="388"/>
+	</widget>
+	<widget field="Jaguar 9 mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="627" y="357"/>
+	</widget>
+	<widget field="Jaguar 8 mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="628" y="328"/>
+	</widget>
+	<widget field="Jaguar 7 mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="628" y="300"/>
+	</widget>
+	<widget field="Jaguar 4 mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="628" y="215"/>
+		<height>20</height>
+	</widget>
+	<widget field="Jaguar 3 mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="629" y="188"/>
+		<height>20</height>
+	</widget>
+	<widget field="Jaguar 2 mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="629" y="161"/>
+	</widget>
+	<widget field="Accel X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="618" y="62"/>
+	</widget>
+	<widget field="Accel Y" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="618" y="90"/>
+	</widget>
+	<widget field="Accel Z" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="618" y="120"/>
+		<height>20</height>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="5" y="3"/>
+		<width>568</width>
+		<height>504</height>
+		<property name="Image File" value="C:\Users\Programming\Desktop\Crosshairs.png"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.camera.WPICameraExtension">
+		<location x="4" y="4"/>
+		<width>568</width>
+		<height>502</height>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="-4" y="-2"/>
+		<width>579</width>
+		<height>512</height>
+		<property name="Connection Color" value="0.204.0.255"/>
+		<property name="Graphics" value="Rounded"/>
+	</static-widget>
+	<widget field="Elevation:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="605" y="33"/>
+		<height>20</height>
+	</widget>
+	<widget field="Jaguar 3 status" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="919" y="59"/>
+	</widget>
+	<widget field="Jaguar 10 status" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="917" y="335"/>
+	</widget>
+	<widget field="Jaguar 7 status" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="919" y="215"/>
+	</widget>
+	<widget field="Jaguar 5 status" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="920" y="135"/>
+	</widget>
+	<widget field="Jaguar 9 status" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="920" y="296"/>
+	</widget>
+	<widget field="Jaguar 2 status" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="920" y="22"/>
+	</widget>
+	<widget field="Jaguar 4 status" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="920" y="96"/>
+	</widget>
+	<widget field="Jaguar 8 status" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="919" y="255"/>
+	</widget>
+	<widget field="Jaguar 6 status" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="920" y="175"/>
+	</widget>
+	<widget field="Jaguar 2 X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="868" y="1"/>
+	</widget>
+	<widget field="Jaguar 3 X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="868" y="38"/>
+	</widget>
+	<widget field="Jaguar 4 X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="869" y="75"/>
+	</widget>
+	<widget field="Jaguar 5 X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="869" y="113"/>
+	</widget>
+	<widget field="Jaguar 6 X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="868" y="152"/>
+	</widget>
+	<widget field="Jaguar 7 X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="868" y="192"/>
+	</widget>
+	<widget field="Jaguar 10 X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="863" y="313"/>
+	</widget>
+	<widget field="Jaguar 8 X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="868" y="232"/>
+	</widget>
+	<widget field="Jaguar 9 X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="868" y="273"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="572" y="-2"/>
+		<width>453</width>
+		<height>515</height>
+		<property name="Connection Color" value="204.153.255.255"/>
+		<property name="No Connection Color" value="255.204.0.255"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="97" y="118"/>
+		<width>218</width>
+		<height>164</height>
+		<property name="Image File" value="C:\Users\Programming\Pictures\FireDoge.jpg"/>
+	</static-widget>
+</dashboard>
+<live-window>
+</live-window>
+	<hidden field="Claw Toggle"/>
+	<hidden field="Autonomous"/>
+	<hidden field="Tilt Down"/>
+	<hidden field="Pressure Toggle"/>
+	<hidden field="Pressure Low"/>
+	<hidden field="Shooter Shoot"/>
+	<hidden field="Claw Open"/>
+	<hidden field="Encoder Reset"/>
+	<hidden field="Shifter Toggle"/>
+	<hidden field="Claw Close"/>
+	<hidden field="Tilt Up"/>
+</xml>

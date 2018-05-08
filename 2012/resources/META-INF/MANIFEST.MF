@@ -1,0 +1,6 @@
+MIDlet-Name: IgKnighters 2012
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: FIRST
+MIDlet-1: IgKnightersBot, , edu.wpi.first.wpilibj.templates.IgKnightersBot
+MicroEdition-Profile: IMP-1.0
+MicroEdition-Configuration: CLDC-1.1
